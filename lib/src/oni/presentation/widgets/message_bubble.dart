@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:oni_chat_package/src/domain/entities/message.dart';
-import 'package:oni_chat_package/src/presentation/providers/chat_provider.dart';
+import 'package:oni_chat_package/src/oni/domain/entities/message.dart';
+import 'package:oni_chat_package/src/oni/presentation/providers/chat_provider.dart';
 import 'package:provider/provider.dart';
 
 class MessageBubble extends StatelessWidget {

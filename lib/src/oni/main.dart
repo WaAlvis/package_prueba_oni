@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:oni_chat_package/src/infrastructure/datasources/onr_db_datasource.dart';
-import 'package:oni_chat_package/src/infrastructure/repositories/chat_repository_impl.dart';
-import 'package:oni_chat_package/src/presentation/chat/chat_screen.dart';
-import 'package:oni_chat_package/src/presentation/providers/chat_provider.dart';
+import 'package:oni_chat_package/src/oni/infrastructure/datasources/onr_db_datasource.dart';
+import 'package:oni_chat_package/src/oni/infrastructure/repositories/chat_repository_impl.dart';
+import 'package:oni_chat_package/src/oni/presentation/chat/chat_screen.dart';
+import 'package:oni_chat_package/src/oni/presentation/providers/chat_provider.dart';
 import 'package:provider/provider.dart';
 
 import 'config/theme/app_theme.dart';

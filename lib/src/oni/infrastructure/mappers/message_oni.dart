@@ -1,4 +1,4 @@
-import 'package:oni_chat_package/src/domain/entities/message.dart';
+import 'package:oni_chat_package/src/oni/domain/entities/message.dart';
 
 class MessageOni {
   static Message messageToEntity(String message) =>

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:oni_chat_package/src/infrastructure/repositories/chat_repository_impl.dart';
+import 'package:oni_chat_package/src/oni/infrastructure/repositories/chat_repository_impl.dart';
 
 import '../../domain/entities/message.dart';
 

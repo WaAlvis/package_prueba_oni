@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:oni_chat_package/src/presentation/providers/chat_provider.dart';
-import 'package:oni_chat_package/src/presentation/widgets/widgets.dart';
+import 'package:oni_chat_package/src/oni/presentation/providers/chat_provider.dart';
+import 'package:oni_chat_package/src/oni/presentation/widgets/widgets.dart';
 import 'package:provider/provider.dart';
 
 class ChatScreen extends StatelessWidget {

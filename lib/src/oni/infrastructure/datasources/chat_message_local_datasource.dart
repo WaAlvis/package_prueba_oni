@@ -1,8 +1,8 @@
 // Implementación de Base de Datos Local
-import 'package:oni_chat_package/src/domain/datasources/chat_message_datasource.dart';
-import 'package:oni_chat_package/src/domain/entities/chat_interaction.dart';
-import 'package:oni_chat_package/src/domain/entities/message.dart';
-import 'package:oni_chat_package/src/domain/entities/session_thread.dart';
+import 'package:oni_chat_package/src/oni/domain/datasources/chat_message_datasource.dart';
+import 'package:oni_chat_package/src/oni/domain/entities/chat_interaction.dart';
+import 'package:oni_chat_package/src/oni/domain/entities/message.dart';
+import 'package:oni_chat_package/src/oni/domain/entities/session_thread.dart';
 
 class ChatMessageLocalDatasource implements ChatMessageDatasource {
   @override

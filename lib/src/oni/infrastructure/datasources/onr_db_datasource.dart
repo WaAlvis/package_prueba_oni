@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
-import 'package:oni_chat_package/src/domain/datasources/chat_message_datasource.dart';
-import 'package:oni_chat_package/src/domain/entities/chat_interaction.dart';
-import 'package:oni_chat_package/src/domain/entities/message.dart';
-import 'package:oni_chat_package/src/domain/entities/session_thread.dart';
-import 'package:oni_chat_package/src/infrastructure/mappers/message_oni.dart';
-import 'package:oni_chat_package/src/infrastructure/mappers/session_mapper.dart';
-import 'package:oni_chat_package/src/infrastructure/models/onrDB/session_onr.dart';
+import 'package:oni_chat_package/src/oni/domain/datasources/chat_message_datasource.dart';
+import 'package:oni_chat_package/src/oni/domain/entities/chat_interaction.dart';
+import 'package:oni_chat_package/src/oni/domain/entities/message.dart';
+import 'package:oni_chat_package/src/oni/domain/entities/session_thread.dart';
+import 'package:oni_chat_package/src/oni/infrastructure/mappers/message_oni.dart';
+import 'package:oni_chat_package/src/oni/infrastructure/mappers/session_mapper.dart';
+import 'package:oni_chat_package/src/oni/infrastructure/models/onrDB/session_onr.dart';
 
 class ChatMessageApiDatasource extends ChatMessageDatasource {
   final dio = Dio(BaseOptions(
